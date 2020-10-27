@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+body {
+    color: black;
+    background: #ebf2f5;
+}
+
+body, input, button, textarea {
+    font: 600 25px Nunito, sans-serif;
+}

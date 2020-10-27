@@ -31,7 +31,7 @@ public class Login extends HttpServlet {
 		
 		//autentica o usuário
 		
-		if (user.getNome().equals("adm") && user.getSenha().equals("masterkey")) {
+		if (user.getNome().equals("administrador") && user.getSenha().equals("12345")) {
 
 			resp.sendRedirect("telainicial.html");
 		}
